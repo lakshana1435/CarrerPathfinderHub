@@ -1,0 +1,227 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+body{
+  font-family:Arial, Helvetica, sans-serif
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 20px 60px;
+    padding-left:40px;
+    background-color:navy
+}
+nav{
+    color:white;
+}
+.logo{
+    font-size:30px;
+    font-weight:bold;
+}
+ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+ul li a{
+    text-decoration:none;
+    color:white;
+    font: size 16px;
+}
+ ul li a #1:hover,#2:hover,#3:hover,#4:hover{
+    transform:scale(1.1);
+    transition:1s;}
+.hero {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.hero button:hover{
+    transform:scale(1.1);
+    transition:1s;
+}
+
+.hero button {
+    padding: 12px 24px;
+    border:black 1px solid;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.hero button:hover{
+    background-color:navy;
+}
+.hero button:hover{
+    color:white
+}
+.careers {
+    padding: 80px 60px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.careers h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.section-description {
+    color: #666666;
+    margin-bottom: 40px;
+}
+
+.career-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.career-card {
+    width: 300px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.career-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.career-card h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.career-card p {
+    color: #666666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.career-card button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.section-description,.section-heading{
+    text-align:center;
+    padding: 10px;
+}
+.career-card:hover{
+    transform:scale(1.1);
+    transition:1s;
+}
+.career-card button:hover{
+    background-color:navy;
+}
+.career-card button:hover{
+    color:white;
+}
+.ai-section {
+    padding: 100px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.ai-content {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.ai-icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.ai-section h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.ai-section p {
+    color: #666666;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.ai-box {
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.ai-box textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    resize: vertical;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    outline: none;
+}
+
+.ai-box button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#ask-ai:hover{
+    background-color:navy
+    
+}
+#ask-ai:hover{
+    color:white
+}
+#ask-ai:hover{
+transform:scale(1.1);
+    transition:1s;}
+    
+#answer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
