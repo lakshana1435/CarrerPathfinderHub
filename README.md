@@ -34,8 +34,7 @@ Choosing the right career path can be challenging for students and beginners. Ca
 ## Technologies Used
 - HTML5
 - CSS3
-- JavaScript
-- 
+- JavaScript 
 ## Future Improvements
 - Add more career paths
 - Add detailed career roadmaps
